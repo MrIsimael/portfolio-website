@@ -9,21 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "predeploy": "npm run build -- --configuration production",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "deploy": "gh-pages -d dist/bolby-protfolio-angular"
-  },
-  "homepage": "https://MrIsimael.github.io/bolby-protfolio-angular",
-=======
     "deploy": "gh-pages -d dist/ng-bolby"
   },
   "homepage": "https://MrIsimael.github.io/portfolio-website",
->>>>>>> master
-=======
-    "deploy": "gh-pages -d dist/ng-bolby"
-  },
-  "homepage": "https://MrIsimael.github.io/portfolio-website",
->>>>>>> a568751fe97ea8d1d0682e06d4ff6d6be8daaa5f
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.6",
