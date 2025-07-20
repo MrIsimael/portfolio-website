@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { LightboxModule } from 'ngx-lightbox';
 import { NgImageSliderModule } from 'ng-image-slider';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -46,6 +45,6 @@ import { NguCarouselModule } from '@ngu/carousel';
     TestimonialsComponent,
     NgbModule
   ],
-  imports: [CommonModule, LightboxModule, NgImageSliderModule, IvyCarouselModule, NguCarouselModule, NgbModule]
+  imports: [CommonModule, LightboxModule, NgImageSliderModule, NguCarouselModule, NgbModule]
 })
 export class SectionsModule {}
